@@ -34,7 +34,7 @@ class InputForm extends Component {
 				list.map(
 					(el, idx) =>
 						idx === isUpdate
-							? updatedList.push({ name: name, password: password, content: content })
+							? updatedList.push({ ...el, name: name, password: password, content: content })
 							: updatedList.push(el)
 				);
 				this.setState({ list: updatedList, isUpdate: null });
