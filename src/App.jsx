@@ -1,12 +1,12 @@
 import React from 'react';
 import InputForm from './component/InputForm';
-import { Div } from './styled';
+import { MainContainer } from './styled';
 
 const App = () => {
 	return (
-		<Div>
+		<MainContainer>
 			<InputForm />
-		</Div>
+		</MainContainer>
 	);
 };
 

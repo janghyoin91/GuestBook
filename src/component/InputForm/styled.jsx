@@ -43,3 +43,24 @@ export const Btn = styled.div`
 	padding: 5px 0;
 	cursor: pointer;
 `;
+
+export const UpdateBtn = styled.span`
+	display: inline-block;
+	border-radius: 3px;
+	width: 20%;
+	background-color: #796eff;
+	color: white;
+	padding: 5px 0;
+	cursor: pointer;
+	margin-right: 10px;
+`;
+
+export const CancelBtn = styled.span`
+	display: inline-block;
+	border-radius: 3px;
+	width: 20%;
+	background-color: #796eff;
+	color: white;
+	padding: 5px 0;
+	cursor: pointer;
+`;

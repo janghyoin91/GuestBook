@@ -35,6 +35,10 @@ export const Mod = styled.div`
 	font-size: 13px;
 	margin-right: 10px;
 	cursor: pointer;
+	:hover {
+		background-color: #796eff;
+		color: #fff;
+	}
 `;
 
 export const Del = styled.div`
@@ -44,4 +48,8 @@ export const Del = styled.div`
 	padding: 2px 12px;
 	cursor: pointer;
 	font-size: 13px;
+	:hover {
+		background-color: #796eff;
+		color: #fff;
+	}
 `;

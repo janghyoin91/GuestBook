@@ -21,6 +21,7 @@ class EnterPassword extends Component {
 
 		deleteBtnHandler(index);
 		toggleEnterNum();
+		alert('삭제되었습니다.');
 	};
 
 	closeEnterOpenWrong = () => {
@@ -37,6 +38,7 @@ class EnterPassword extends Component {
 		return (
 			<Modal>
 				<ModalContent>
+					<div>삭제하시려면 비밀번호를 입력해주세요!</div>
 					<InputWrapper>
 						<input value={inputVal} onChange={this.changeInputVal} />
 					</InputWrapper>
